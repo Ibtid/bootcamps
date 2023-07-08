@@ -1,8 +1,8 @@
 import React from 'react';
-import EditTraining from '../components/EditTraining/EditTraining';
+import AddTraining from '../components/AddTraining/AddTraining';
 
-const EditTrainingPage = () => {
-  return <EditTraining />;
+const AddTrainingPage = () => {
+  return <AddTraining />;
 };
 
-export default EditTrainingPage;
+export default AddTrainingPage;

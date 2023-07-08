@@ -4,11 +4,12 @@ import TrainingDetailsPage from './pages/TrainingDetailsPage';
 import './App.css';
 import TrainingDashboard from './pages/TrainingDashboard';
 import EditTrainingPage from './pages/EditTrainingPage';
+import AddTrainingPage from './pages/AddTrainingPage';
 
 function App() {
   return (
     <>
-      <EditTrainingPage />
+      <AddTrainingPage />
     </>
   );
 }
