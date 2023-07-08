@@ -12,3 +12,15 @@
   max-width: 40vw;
   max-height: 80vh;
 }
+
+@media screen and (max-width: 760px) {
+  .training_details_image_container {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .training_details_image {
+    max-width: 80vw;
+    max-height: 40vh;
+  }
+}
