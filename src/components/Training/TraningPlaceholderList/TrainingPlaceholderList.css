@@ -1,0 +1,40 @@
+.training_placeholder_list_text {
+  color: var(--secondaryText);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0rem 2rem 8rem 2rem;
+  font-size: 1.25rem;
+}
+
+.training_placeholder_list_title {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.training_placeholder_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .training_placeholder_list {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .training_placeholder_list_text {
+    align-items: flex-start;
+  }
+  .training_placeholder_list_title {
+    font-size: 1.5rem;
+  }
+}
