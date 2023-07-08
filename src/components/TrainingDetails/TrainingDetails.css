@@ -1,0 +1,6 @@
+.trainingDetails_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4rem 4rem;
+}

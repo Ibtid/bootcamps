@@ -1,0 +1,14 @@
+.training_details_image_container {
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid var(--black);
+  border-radius: 1rem;
+}
+
+.training_details_image {
+  max-width: 40vw;
+  max-height: 80vh;
+}

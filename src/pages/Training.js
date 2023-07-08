@@ -1,13 +1,12 @@
 import React from 'react';
 import Hero from '../components/Training/Hero/Hero';
+import TrainingPlaceholderList from '../components/Training/TraningPlaceholderList/TrainingPlaceholderList';
 
 const Training = () => {
   return (
     <>
       <Hero />
-      {/* Header */}
-      {/* Training 1 */}
-      {/* Training 2 */}
+      <TrainingPlaceholderList />
     </>
   );
 };
