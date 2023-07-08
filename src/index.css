@@ -25,3 +25,48 @@ span {
 div {
   transition: all ease-in-out 0.1s;
 }
+
+.outlined-button {
+  width: 4rem;
+  margin-right: 2rem;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--black);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outlined-button:hover {
+  background-color: var(--secondaryText);
+  color: var(--white);
+}
+
+.filled-button {
+  width: 4rem;
+  margin-right: 2rem;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--white);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background-color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filled-button:hover {
+  background-color: var(--secondaryText);
+  color: var(--black);
+}
+
+.paired-button {
+  display: flex;
+  align-items: start;
+  margin: 1rem 0rem;
+}
