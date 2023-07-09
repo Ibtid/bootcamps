@@ -1,0 +1,48 @@
+.add_training_image_container {
+  position: relative;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--black);
+  border-radius: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.add_training_image {
+  max-width: 40vw;
+  max-height: 80vh;
+}
+
+.add_training_add_image_container {
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40vw;
+  height: 80vh;
+}
+
+@media screen and (max-width: 760px) {
+  .add_training_image_container {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .add_training_image {
+    max-width: 80vw;
+    max-height: 40vh;
+  }
+  .add_training_add_image_container {
+    width: 80vw;
+    height: 40vh;
+  }
+}

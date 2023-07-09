@@ -15,12 +15,12 @@
 }
 
 .training_placeholder_list {
+  margin: 4rem 8rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   grid-column-gap: 0px;
   grid-row-gap: 4rem;
-  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -36,5 +36,8 @@
   }
   .training_placeholder_list_title {
     font-size: 1.5rem;
+  }
+  .training_placeholder_list {
+    margin: 4rem 2rem;
   }
 }

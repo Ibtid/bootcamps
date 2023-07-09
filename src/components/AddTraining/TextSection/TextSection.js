@@ -18,6 +18,7 @@ const TextSection = () => {
 
       <input
         name='title'
+        placeholder='Name your bootcamp'
         className='training_details_text_section_info title-input'
         value={formData.title}
         onChange={onChangeFormData}
@@ -27,6 +28,7 @@ const TextSection = () => {
 
       <textarea
         name='description'
+        placeholder='Say what and how are you offering'
         className='training_details_text_section_info large-input-textArea'
         value={formData.description}
         onChange={onChangeFormData}
@@ -34,6 +36,7 @@ const TextSection = () => {
       <div className='training_details_text_section_label'>Background</div>
       <textarea
         name='background'
+        placeholder='Importance of your bootcamp'
         className='training_details_text_section_info large-input-textArea'
         value={formData.background}
         onChange={onChangeFormData}

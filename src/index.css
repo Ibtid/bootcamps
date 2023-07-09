@@ -27,7 +27,7 @@ div {
 }
 
 .outlined-button {
-  width: 4rem;
+  width: 8rem;
   margin-right: 2rem;
   border: 2px solid var(--accent);
   cursor: pointer;
@@ -46,8 +46,8 @@ div {
 }
 
 .filled-button {
-  width: 4rem;
-  margin-right: 2rem;
+  width: 8rem;
+  margin-right: 0rem;
   border: 2px solid var(--accent);
   cursor: pointer;
   padding: 0.5rem;
